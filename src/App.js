@@ -3,26 +3,22 @@ import './App.css';
 
 function App() {
   return (
-
 <div>
-    <div class="outline">
-      <div class="lecard">
-        <h2>Some Nerd</h2>
-        <img src="https://i.kym-cdn.com/news_feeds/icons/mobile/000/037/359/05b.jpg" alt="Obi-Wan headshot" />
-        <p class="details">Hello there <br></br> Lightsaber go <i>brrrr</i></p>
-      </div>
-    </div>
-  <div class="buttons">
-  
-  <button class="copyCat">Copy</button>
-  <button id="del">Delete</button>
-  <button class="btnDet">Toggle Details</button> 
-  <button class="btnCT">Change Title</button>
-  <button  class="btnBG">Change Background Color</button>
-  
-  </div>
-  
+<button class="deleteBtn">Delete Card</button>
+<button class="duplicateBtn"> Duplicate Card</button>
+<button class="changeColorBtn"> Background Color</button>
+<button class="ChangeHeadingBtn">Change Heading</button>
+
+<div class="mainWrapper">
+  <h1 id="heading"> Penn State University </h1>
+  <img src="https://www.psu.edu/psu-edu-assets/images/shared/psu-mark.svg" width="400" class="image"> </img>
+  <h2>Description</h2>
+  <p>The Penn State University logo showing the Nittany Lion. </p>
+  <button> <a href="https://hax.psu.edu"> Details
+  </a> </button> 
 </div>
+</div>
+
   );
 }
 export default App;
