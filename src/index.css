@@ -48,6 +48,6 @@ button {
 @media (max-width: 500px) {
   div {
     font-size: 10px;
-    image-size: auto;
+    image-resolution: auto;
   }
 }
